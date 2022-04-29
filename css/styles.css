@@ -1,6 +1,7 @@
 html{
     background-color: #F0F0F0;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .headerImg{
@@ -26,7 +27,13 @@ html{
 }
 
 .about{
-    padding: 46px;
+    padding: 48px;
+}
+
+#aboutMeDiv{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #aboutMe{
@@ -38,9 +45,24 @@ html{
     display: flex;
 }
 
+#hobbiesDiv{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .column{
     flex: 33.33%;
     padding: 5px;
+}
+
+.hobbies{
+    padding: 48px;
+}
+
+#hob{
+    color: black;
+    text-align: center;
 }
 
 .mountTimp{
@@ -80,20 +102,21 @@ p{
 .navBar a:hover{
     background-color: #ddd;
     color: black;
-    transition: 0.2s;
+    transition: 0.5s;
 }
   
 .projects {
     width: 800px;
     height: 800px;
     margin: 0 auto;
+    padding: 48px;
 }
   
 .projects > a > img {
     float: left;
     width: 45%;
     margin: 1.66%;
-    border: black solid 2px;
+    border-radius: 5px;
 }
 
 #projectHead{
@@ -168,6 +191,11 @@ ion-icon{
 .project4:hover{
     opacity: 0.5;
     transition: 0.2s;
+}
+
+.addCred{
+    text-align: center;
+    list-style: inside;
 }
 
 footer{
