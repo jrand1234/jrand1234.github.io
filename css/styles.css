@@ -193,6 +193,11 @@ ion-icon{
     transition: 0.2s;
 }
 
+.addCred{
+    text-align: center;
+    list-style: inside;
+}
+
 footer{
     display: table;
     text-align: center;
